@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-section">
+        <div class="header">
+          <img src="./img/book.svg" alt="book icon" />
+          <h1>Library</h1>
+        </div>
+        <form action="">
+          <div class="name-input">
+            <label for="name">Book</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="author-input">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" />
+          </div>
+          <div class="pages-input">
+            <label for="pages">Pages</label>
+            <input type="number" id="pages" name="pages" />
+          </div>
+          <div class="status-input">
+            <label for="is-read">Read</label>
+            <input type="checkbox" id="is-read" name="is-read" />
+          </div>
+        </form>
+      </div>
+      <div class="table-container">
+        <table class="table">
+          <tr>
+            <th>NAME</th>
+            <th>AUTHOR</th>
+            <th>PAGES</th>
+            <th>STATUS</th>
+          </tr>
+          <tr>
+            <td>Harry Potter</td>
+            <td>J.K. Rowling</td>
+            <td>403</td>
+            <td><button>READ</button></td>
+            <td><button>DELETE</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

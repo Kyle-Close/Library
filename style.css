@@ -1,0 +1,70 @@
+/* ---------- RESET DONE ---------- */
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ---------- LEFT SIDE ---------- */
+.form-section {
+  height: 100%;
+  background-color: rgb(192, 158, 47);
+  display: grid;
+  grid-template-rows: 150px 1fr;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 1rem;
+  align-self: center;
+}
+
+.header > img {
+  justify-self: flex-end;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* ---------- TABLE STYLE ---------- */
+table {
+  border-collapse: collapse;
+  height: auto;
+}
+
+tr {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+tr:first-child {
+  border-top: none;
+}
+
+th,
+td {
+  padding: 2rem;
+}
